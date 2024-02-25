@@ -1,0 +1,12 @@
+   0 touch info.txt
+   1 date > /info.txt
+   2 df -h /
+   3 df -h >> /info.txt
+   4 history >> /info.txt
+   5 cat /info.txt
+   6 cat /proc/cpuinfo
+   7 cat /proc/cpuinfo | grep vendor | awk '{print $3}' >> /info.txt
+   8 cat /info.txt
+   9 vi /info.txt
+  10 cat /info.txt
+  11 history > /tmp/history.txt
